@@ -269,4 +269,5 @@ def model(X_train, Y_train, X_test, Y_test,
 start_time = time.clock()
 parameters = model(X_train, Y_train, X_test, Y_test)
 end_time = time.clock()
+print("start testing")
 print("CPU执行时间 = " + str(end_time-start_time) + "秒")
